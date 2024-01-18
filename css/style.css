@@ -84,8 +84,9 @@ header {
 /*ロゴ画像*/
 header #logo img {
   float: left; /*左に回り込み*/
-  width: 350px; /*画像の幅*/
-  margin-top: 90px; /*上に空けるスペース。上下の配置バランスをここで調整して下さい。*/
+  width: 200px; /*画像の幅*/
+  margin-top: 10px; /*上に空けるスペース。上下の配置バランスをここで調整して下さい。*/
+  margin-bottom: 10px;
 }
 
 /*上部のメインメニュー
@@ -166,7 +167,15 @@ header #logo img {
 #main section + section {
   margin-top: 50px;
 }
-
+.specialmenu {
+  margin-top: 25px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+.specialmenu img {
+  width: 600px;
+}
 /*menu.html内のメニューブロック
 ---------------------------------------------------------------------------*/
 /*clearfix（変更不要）*/
